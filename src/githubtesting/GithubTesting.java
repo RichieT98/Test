@@ -16,6 +16,19 @@ public class GithubTesting {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int num = 5;
+        
+        while (num < 12){
+            if (num < 10){
+                num += 2;
+                System.out.println(num);
+
+            }else{
+                num++;
+                System.out.println(num);
+
+                }
+        }
     }
  
     
